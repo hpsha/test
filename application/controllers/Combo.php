@@ -11,7 +11,7 @@ class Combo extends CI_Controller
     }
     public function index($page = 1){
         $data = array();
-        $data['title'] = "Manage Combo Offers Details";
+        $data['title'] = "Manages Combo Offers Details";
         $select=array();
         $where=array();
         $orderby = array();
